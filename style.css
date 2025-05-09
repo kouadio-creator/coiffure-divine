@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background: #d32f2f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .services, .galerie {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services li {
+    margin: 10px 0;
+  }
+  
+  .galerie img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  footer a {
+    color: #00e676;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .galerie img {
+      width: 100%;
+    }
+  
+    .services li {
+      font-size: 16px;
+    }
+  
+    header, .services, .galerie, .contact {
+      padding: 10px;
+    }
+  }
+  
